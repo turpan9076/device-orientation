@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 0;
     overflow: hidden;
     display: flex;
@@ -7,21 +7,21 @@ body {
     height: 100vh;
     background-color: #fff;
     font-family: 'Arial', sans-serif;
-}
+} */
 
 .compass {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: radial-gradient(circle at center, #fff, #3498db);
+    background: radial-gradient(circle at center, #c89932, #e6b422);
 }
 
 .needle {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform-origin: 50% 100%;
+    transform-origin: 50% 0;
     transform: translateX(-50%) translateY(-100%) rotate(0deg);
     width: 2px;
     height: 100px;
