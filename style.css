@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.compass {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.base {
+    position: relative;
+}
+
+.needle {
+    width: 2px;
+    height: 100px;
+    background-color: #f00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease;
+}
